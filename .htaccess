@@ -17,3 +17,6 @@ RewriteRule . /projects/DandRMachining/index.php [L]
 </IfModule>
 
 # END WordPress
+
+# BEGIN HTML5 Boilerplate
+# END HTML5 Boilerplate
