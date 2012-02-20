@@ -36,7 +36,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
           </a>
           <a class="brand" href="<?php echo home_url(); ?>/">
             <?php bloginfo('name'); ?>
