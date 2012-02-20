@@ -10,7 +10,7 @@
                <a href="#" class="brand">Yo Dog!</a>
                <ul class="nav">
                   <li><a href="#">Test 1</a></li>
-                  <<li>a href="#">Test 2</a></li>
+                  <li><a href="#">Test 2</a></li>
                   <li><a href="#">Test 3</a></li>
                </ul>
             </div>
@@ -18,6 +18,94 @@
       </div>
 
       <div class="container">
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
+         </div>
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
+         </div>
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
+         </div>
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
+         </div>
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
+         </div>
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
+         </div>
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
+         </div>
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
+         </div>
          <div class="row">
             <h1>Hello World</h1>
             <div class="span4">
