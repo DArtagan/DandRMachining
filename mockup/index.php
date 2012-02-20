@@ -7,22 +7,27 @@
       <div class="navbar navbar-fixed-top">
          <div class="navbar-inner">
             <div class="container">
-               <a href="#">Test 1</a>
-               <a href="#">Test 2</a>
-               <a href="#">Test 3</a>
+               <a href="#" class="brand">Yo Dog!</a>
+               <ul class="nav">
+                  <a href="#">Test 1</a>
+                  <a href="#">Test 2</a>
+                  <a href="#">Test 3</a>
+               </ul>
             </div>
          </div>
       </div>
 
       <div class="container">
-         <h1>Hello World</h1>
-         <div class="span4">
-            <h2>First Heading</h2>
-            <p>The side section</p>
-         </div>
-         <div class="span8">
-            <h2>Second Heading</h2>
-            <p>The main section</p>
+         <div class="row">
+            <h1>Hello World</h1>
+            <div class="span4">
+               <h2>First Heading</h2>
+               <p>The side section</p>
+            </div>
+            <div class="span8">
+               <h2>Second Heading</h2>
+               <p>The main section</p>
+            </div>
          </div>
          <hr>
          <footer>
