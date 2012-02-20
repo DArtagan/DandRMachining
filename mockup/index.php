@@ -9,9 +9,9 @@
             <div class="container">
                <a href="#" class="brand">Yo Dog!</a>
                <ul class="nav">
-                  <a href="#">Test 1</a>
-                  <a href="#">Test 2</a>
-                  <a href="#">Test 3</a>
+                  <li><a href="#">Test 1</a></li>
+                  <<li>a href="#">Test 2</a></li>
+                  <li><a href="#">Test 3</a></li>
                </ul>
             </div>
          </div>
