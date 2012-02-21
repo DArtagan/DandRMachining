@@ -2,9 +2,10 @@
    <head>
       <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
       <style type="text/css">
-         <link rel="stylesheet" type="text/css" href="//webputty.commondatastorage.googleapis.com/agtzfmNzc2ZpZGRsZXIMCxIEUGFnZRiL2zgM.css" />
-         <script type="text/javascript">(function(w,d){if(w.location!=w.parent.location||w.location.search.indexOf('__preview_css__')>-1){var t=d.createElement('script');t.type='text/javascript';t.async=true;t.src='http://www.webputty.net/js/agtzfmNzc2ZpZGRsZXIMCxIEUGFnZRiL2zgM';(d.body||d.documentElement).appendChild(t);}})(window,document);</script>
-      <script src="js/bootstrap.js"></script>
+      <link rel="stylesheet" type="text/css" href="//webputty.commondatastorage.googleapis.com/agtzfmNzc2ZpZGRsZXIMCxIEUGFnZRiL2zgM.css" />
+      <link rel="stylesheet" type="text/css" href="//webputty.commondatastorage.googleapis.com/agtzfmNzc2ZpZGRsZXIMCxIEUGFnZRiL2zgM.css" />
+      <link rel="stylesheet" type="text/css" href="//webputty.commondatastorage.googleapis.com/agtzfmNzc2ZpZGRsZXIMCxIEUGFnZRiL2zgM.css" />
+      <script type="text/javascript">(function(w,d){if(w.location!=w.parent.location||w.location.search.indexOf('__preview_css__')>-1){var t=d.createElement('script');t.type='text/javascript';t.async=true;t.src='http://www.webputty.net/js/agtzfmNzc2ZpZGRsZXIMCxIEUGFnZRiL2zgM';(d.body||d.documentElement).appendChild(t);}})(window,document);</script>
    </head>
    <body>
       <div class="navbar navbar-fixed-top">
