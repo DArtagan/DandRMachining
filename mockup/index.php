@@ -1,6 +1,12 @@
 <html>
    <head>
       <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+      <style type="text/css">
+         body {
+               padding-top: 60px;
+               padding-bottom: 40px;
+         }
+      </style>
       <script src="js/bootstrap.js"></script>
    </head>
    <body>
