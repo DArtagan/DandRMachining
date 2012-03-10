@@ -1,6 +1,12 @@
 div.banner img{
-	width: 100%;
+	/*width: 100%;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 0;*/
+	background-position: center center;
+    color: white;
+    height: 445px;
+    overflow: auto;
+    text-shadow: 1px 1px black;
+    width: 100%
 }
