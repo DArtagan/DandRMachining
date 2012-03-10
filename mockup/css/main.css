@@ -6,8 +6,7 @@ div.banner {
 	background-image: url('../img/banner.jpg');
 	background-position: center center;
     color: white;
-    height: 445px;
+    height: 400px;
     overflow: auto;
-    text-shadow: 1px 1px black;
     width: 100%
 }
