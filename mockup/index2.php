@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="banner 1">
-    <p>Test</p>
+    <img src="img/banner.jpg" />
   </div>
 </body>
 </html>

@@ -1,4 +1,6 @@
-div.banner {
-	background-image: "img/banner.jpg";
-	height: 400px;
+div.banner img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
