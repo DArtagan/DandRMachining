@@ -1,8 +1,9 @@
-div.banner img{
+div.banner {
 	/*width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;*/
+	background-imag: url('../img/banner.jpg');
 	background-position: center center;
     color: white;
     height: 445px;
