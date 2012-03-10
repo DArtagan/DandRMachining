@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="banner 1">
-
+    <img class="logo" src="img/logo.png" />
   </div>
 </body>
 </html>
