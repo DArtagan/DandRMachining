@@ -8,6 +8,7 @@
 </head>
 <body>
 	<div class="banner 1">
+    <p>Test</p>
   </div>
 </body>
 </html>
