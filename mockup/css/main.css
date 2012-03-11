@@ -8,5 +8,11 @@ div.banner {
     color: white;
     height: 400px;
     overflow: auto;
-    width: 100%
+    width: 100%;
+	border-bottom: 5px solid #000000;
+}
+
+img.logo {
+	margin-left: 50px;
+	vertical-align: center;
 }
