@@ -1,18 +1,66 @@
+body, html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 div.banner {
-	/*width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;*/
-	background-image: url('../img/banner.jpg');
-	background-position: center center;
-    color: white;
-    height: 400px;
-    overflow: auto;
-    width: 100%;
-	border-bottom: 5px solid #000000;
+  /*width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;*/
+  background-image: url('../img/banner.jpg');
+  background-position: center center;
+  color: white;
+  height: 50%;
+  overflow: auto;
+  width: 100%;
+  border-bottom: 5px solid #000000;
 }
 
 img.logo {
-	margin-left: 50px;
-	vertical-align: center;
+  margin: 60px 0px 0px 50px;
+  vertical-align: center;
+}
+
+div.categories {
+  height: 49%;
+  margin: 0px auto;
+  width: 940px;
+}
+
+div.categories>a, div.categories>div {
+  border-left: 2px solid #000000;
+  float: left;
+  height: 60%;
+  padding: 15px;
+  width: 156px;
+}
+
+div.categories h2 {
+  font-size: 2em !important;
+  line-height: 2em !important:
+}
+
+div.categories>div.other>ul {
+  padding-top: 2em;
+}
+
+div.categories>div.other>ul>li {
+  font-size: 1.7em !important;
+  line-height: 2em !important;
+  list-style: none;
+}
+
+footer {
+  background: #212121;
+  color: #e5e5e5;
+  padding: 15px 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer>p {
+  padding: 0px 40px;
 }
