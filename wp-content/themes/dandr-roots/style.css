@@ -5,3 +5,15 @@ Description: A child theme of roots made for the company D&R CNC Machining
 Author URI: http://william.weiskopf.me
 Template: roots
 */
+
+body.home div.navbar-inner {
+  display: none;
+}
+
+div#wrap {
+  padding: 0px;
+}
+
+footer {
+  background: #212121;
+}
