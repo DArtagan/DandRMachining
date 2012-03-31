@@ -1,0 +1,6 @@
+# prevent viewing of a github.php file
+<files github.php>
+ order deny,allow
+ deny from all
+ allow from github.com
+</files>
