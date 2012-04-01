@@ -3,24 +3,25 @@
 ?>
 
 <?php get_header(); ?>
-  <div class="topBanner one">
-    <div style="display: table-cell; vertical-align: middle;">
-      <div>
-        <a href="index.php"><img class="logo" src="wp-content/themes/dandr-roots/img/logo.png" /></a>
+  <?php roots_content_before(); ?>
+    <div class="topBanner span12">
+      <div style="display: table-cell; vertical-align: middle;">
+        <div>
+          <a href="index.php"><img class="logo" src="wp-content/themes/dandr-roots/img/logo.png" /></a>
+        </div>
       </div>
     </div>
-  </div>
-  <?php roots_content_before(); ?>
+
     <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
       <?php roots_main_before(); ?>
         <div id="main" class="<?php echo MAIN_CLASSES; ?>" role="main">
         </div><!-- /#main -->
-      <div class="categories">
-        <a href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/equipment.png'); background-position: center center; background-repeat: no-repeat;"><h2>Equipment</h2></a>
-        <a href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/quality.png'); background-position: center center; background-repeat: no-repeat;"><h2>Quality</h2></a>
-        <a href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/industry.png'); background-position: center center; background-repeat: no-repeat;"><h2>Industries</h2></a>
-        <a href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/aboutUs.png'); background-position: center center; background-repeat: no-repeat;"><h2>About Us</h2></a>
-        <div class="other">
+      <div class="categories container">
+        <a class="span2" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/equipment.png'); background-position: center center; background-repeat: no-repeat;"><h2>Equipment</h2></a>
+        <a class="span2" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/quality.png'); background-position: center center; background-repeat: no-repeat;"><h2>Quality</h2></a>
+        <a class="span2" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/industry.png'); background-position: center center; background-repeat: no-repeat;"><h2>Industries</h2></a>
+        <a class="span2" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/aboutUs.png'); background-position: center center; background-repeat: no-repeat;"><h2>About Us</h2></a>
+        <div class="other span2">
           <ul>
             <li><a href="child.php">Contact</a></li>
             <li><a href="child.php">Quotations</a></li>

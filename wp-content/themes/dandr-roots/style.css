@@ -6,7 +6,18 @@ Author URI: http://william.weiskopf.me
 Template: roots
 */
 
-body.home div.navbar-inner {
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+div#wrap {
+  height: 100%;
+}
+
+body.home header {
   display: none;
 }
 
@@ -19,6 +30,7 @@ div.topBanner {
   background-position: center center;
   color: white;
   height: 50%;
+  margin-left: 0px;
   overflow: auto;
   width: 100%;
   border-bottom: 5px solid #000000;
@@ -29,23 +41,25 @@ img.logo {
   vertical-align: center;
 }
 
+div#content {
+  height: 100%;
+}
+
 div.categories {
-  height: 49%;
+  height: 48%;
   margin: 0px auto;
   width: 940px;
 }
 
 div.categories>a, div.categories>div {
   border-left: 2px solid #000000;
-  float: left;
   height: 60%;
-  padding: 15px;
-  width: 156px;
 }
 
 div.categories h2 {
   font-size: 2em !important;
-  line-height: 2em !important:
+  line-height: 2em !important;
+  padding-left: 10px;
 }
 
 div.categories>div.other>ul {
@@ -61,4 +75,7 @@ div.categories>div.other>ul>li {
 
 footer {
   background: #212121;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
