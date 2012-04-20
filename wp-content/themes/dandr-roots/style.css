@@ -20,6 +20,7 @@ header {
 
 body.home header {
   height: 50%;
+  margin-bottom: 0px;
 }
 
 div#topBanner {
@@ -58,7 +59,12 @@ div#wrap {
 }
 
 body.home div#wrap {
-  height: 42%;
+  width: 960px;
+  margin: 0px auto;
+}
+
+body.home div#wrap {
+  height: 50%;
 }
 
 #sidebar>.well {
@@ -72,7 +78,7 @@ div#content {
 div.categories {
   height: 100%;
   margin: 0px auto;
-  width: 940px;
+  width: auto;
 }
 
 div.categories>a, div.categories>div {
