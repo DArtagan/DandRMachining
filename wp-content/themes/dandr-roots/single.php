@@ -10,10 +10,9 @@
     <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
       <?php roots_main_before(); ?>
         <div id="main" class="<?php echo MAIN_CLASSES; ?>" role="main">
-          <div class="page-header">
-            <h1><?php _e('Latest Posts', 'roots');?></h1>
-          </div>
-          <?php get_template_part('loop', 'index'); ?>
+          <?php roots_loop_before(); ?>
+          <?php get_template_part('loop', 'single'); ?>
+          <?php roots_loop_after(); ?>
         </div><!-- /#main -->
       <?php roots_main_after(); ?>
       <?php roots_sidebar_before(); ?>

@@ -17,7 +17,7 @@ div#wrap {
   height: 100%;
 }
 
-body.home header {
+body header {
   display: none;
 }
 
@@ -25,11 +25,22 @@ div#wrap {
   padding: 0px;
 }
 
-div.topBanner {
+div#frontBanner {
   background-image: url('img/banner.jpg');
   background-position: center center;
   color: white;
   height: 50%;
+  margin-left: 0px;
+  overflow: auto;
+  width: 100%;
+  border-bottom: 5px solid #000000;
+}
+
+div#topBanner {
+  background-image: url('img/banner.jpg');
+  background-position: center center;
+  color: white;
+  height: 30%;
   margin-left: 0px;
   overflow: auto;
   width: 100%;
@@ -72,10 +83,13 @@ div.categories>div.other>ul>li {
   list-style: none;
 }
 
+body.home footer {
+  position: absolute;
+  bottom: 0px;
+}
 
 footer {
   background: #212121;
-  position: absolute;
-  bottom: 0px;
   width: 100%;
+  clear: both;
 }
