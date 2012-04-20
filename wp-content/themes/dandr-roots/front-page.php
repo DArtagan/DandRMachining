@@ -6,12 +6,12 @@
   <?php roots_content_before(); ?>
     <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
       <?php roots_main_before(); ?>
-      <div class="categories container">
-        <a class="span2" href="equipment" style="background-image: url('wp-content/themes/dandr-roots/img/equipment.png'); background-position: center center; background-repeat: no-repeat;"><h2>Equipment</h2></a>
-        <a class="span2" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/quality.png'); background-position: center center; background-repeat: no-repeat;"><h2>Quality</h2></a>
-        <a class="span2" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/industry.png'); background-position: center center; background-repeat: no-repeat;"><h2>Industries</h2></a>
-        <a class="span2" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/aboutUs.png'); background-position: center center; background-repeat: no-repeat;"><h2>About Us</h2></a>
-        <div class="other span2">
+      <div class="categories">
+        <a class="" href="equipment" style="background-image: url('wp-content/themes/dandr-roots/img/equipment.png'); background-position: center center; background-repeat: no-repeat;"><h2>Equipment</h2></a>
+        <a class="" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/quality.png'); background-position: center center; background-repeat: no-repeat;"><h2>Quality</h2></a>
+        <a class="" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/industry.png'); background-position: center center; background-repeat: no-repeat;"><h2>Industries</h2></a>
+        <a class="" href="child.php" style="background-image: url('wp-content/themes/dandr-roots/img/aboutUs.png'); background-position: center center; background-repeat: no-repeat;"><h2>About Us</h2></a>
+        <div class="other">
           <ul>
             <li><a href="child.php">Contact</a></li>
             <li><a href="child.php">Quotations</a></li>
