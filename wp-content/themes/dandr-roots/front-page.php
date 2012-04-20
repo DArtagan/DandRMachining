@@ -4,14 +4,6 @@
 
 <?php get_header(); ?>
   <?php roots_content_before(); ?>
-  <div id="frontBanner" class="span12">
-      <div style="display: table-cell; vertical-align: middle;">
-        <div>
-          <a href="index.php"><img class="logo" src="wp-content/themes/dandr-roots/img/logo.png" /></a>
-        </div>
-      </div>
-    </div>
-
     <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
       <?php roots_main_before(); ?>
         <div id="main" class="<?php echo MAIN_CLASSES; ?>" role="main">

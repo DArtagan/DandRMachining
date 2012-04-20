@@ -1,13 +1,6 @@
 <?php get_header(); ?>
   <?php roots_content_before(); ?>
-  <div id="topBanner" class="span12">
-      <div style="display: table-cell; vertical-align: middle;">
-        <div>
-          <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="logo" src="<?php echo get_stylesheet_directory_uri (); ?>/img/logo.png" /></a>
-        </div>
-      </div>
-    </div>
-    <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
+        <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
     <?php roots_main_before(); ?>
       <div id="main" class="<?php echo MAIN_CLASSES; ?>" role="main">
         <?php roots_loop_before(); ?>

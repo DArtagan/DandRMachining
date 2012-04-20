@@ -26,26 +26,25 @@
 <body <?php body_class(roots_body_class()); ?>>
 
   <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
   <?php roots_header_before(); ?>
-    <header id="banner" class="navbar navbar-fixed-top" role="banner">
-      <?php roots_header_inside(); ?>
-      <div class="navbar-inner">
-        <div class="<?php echo WRAP_CLASSES; ?>">
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="<?php echo home_url(); ?>/">
-            <?php bloginfo('name'); ?>
-          </a>
-          <nav id="nav-main" class="nav-collapse" role="navigation">
-            <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker())); ?>
-          </nav>
+  <header id="banner" class=" " role="banner">
+    <?php roots_header_inside(); ?>
+    <div id="topBanner" class="span12">
+          <a class="brand" href="<?php echo home_url(); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="logo" src="<?php echo get_stylesheet_directory_uri (); ?>/img/logo.png" /></a>
+    </div>
+    <?php if(!is_front_page()) { ?>
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="<?php echo WRAP_CLASSES; ?>">
+            <nav id="nav-main" class="" role="navigation">
+              <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker())); ?>
+            </nav>
+          </div>
         </div>
       </div>
-    </header>
+    <?php } ?>
+  </header>
+
   <?php roots_header_after(); ?>
 
   <?php roots_wrap_before(); ?>
