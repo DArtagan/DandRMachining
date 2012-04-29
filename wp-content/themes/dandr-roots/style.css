@@ -56,21 +56,20 @@ header .navbar-inner {
 }
 
 #superWrap {
-  min-height: 100%; /*46%;*/ /* 60%;*/
+  min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0px 0px -146px/*0px */ /*-16px*/;
+  margin: 0px 0px -146px;
 }
 
 body.home #superWrap {
-  height: 100%;
+  height: 100% !important;
 }
 
 body.home div#wrap {
   width: 960px;
   margin: 0px auto;
-  min-height: 0px;
-  height: 47% !important;
+  height: 50% !important;
 }
 
 #sidebar>.well {
@@ -129,11 +128,6 @@ footer#content-info {
 body.home div.push {
   display: none;
 }
-
-/*body.home footer#content-info {
-  position: absolute;
-  bottom: 0px;
-}*/
 
 footer>div {
   padding: 0px 30px;
