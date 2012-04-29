@@ -25,7 +25,7 @@ body.home header {
 }
 
 div#topBanner {
-  background-image: url('img/banner.jpg');
+  background-image: url('img/rotator.php');
   background-position: center center;
   color: white;
   height: 100%;
@@ -34,6 +34,10 @@ div#topBanner {
   overflow: auto;
   width: 100%;
   border-bottom: 5px solid #000000;
+}
+
+body.home div#topBanner {
+  background-image: url('img/banners/banner.jpg');
 }
 
 img.logo {
