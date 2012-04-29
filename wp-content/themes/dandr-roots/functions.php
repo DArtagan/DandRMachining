@@ -24,7 +24,7 @@ function dandr_post_parent_setup() {
 add_action( 'after_setup_theme', 'dandr_post_parent_setup', 11);
 
 function my_unregister_sidebars() {
-    unregister_sidebar( 'Sidebar' );
+  unregister_sidebar( 'roots-sidebar' );
             }
 
             //unregister sidebars by tying onto same hook again, with priority '11'
