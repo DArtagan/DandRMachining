@@ -62,6 +62,10 @@ header .navbar-inner {
   margin: 0px 0px -146px/*0px */ /*-16px*/;
 }
 
+body.home #superWrap {
+  height: 100%;
+}
+
 body.home div#wrap {
   width: 960px;
   margin: 0px auto;
@@ -122,9 +126,9 @@ footer#content-info {
   width: 100%;
 }
 
-/*body.home div.push {
+body.home div.push {
   display: none;
-}*/
+}
 
 /*body.home footer#content-info {
   position: absolute;
