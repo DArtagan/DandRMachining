@@ -56,7 +56,7 @@ header .navbar-inner {
 }
 
 #superWrap {
-  min-height: 60%; /*46%;*/ /* 60%;*/
+  min-height: 100%; /*46%;*/ /* 60%;*/
   height: auto !important;
   height: 100%;
   margin: 0px 10% -125px/*0px */ /*-16px*/;
