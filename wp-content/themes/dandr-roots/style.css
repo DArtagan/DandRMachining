@@ -86,6 +86,7 @@ div#content {
 
 div.categories {
   height: 100%;
+  min-height: 275px;
   margin: 0px 0px 0px 30px;
   width: auto;
 }
