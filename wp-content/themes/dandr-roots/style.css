@@ -67,7 +67,7 @@ body.home #superWrap {
 }
 
 body.home div#wrap {
-  width: 960px;
+  width: 920px;
   margin: 0px auto;
   height: 50% !important;
 }
@@ -115,7 +115,11 @@ div.categories>div.other>ul>li {
   list-style: none;
 }
 
-footer#content-info, div.push {
+div.push {
+  height: 125px;
+}
+
+footer#content-info {
   height: 50px;
 }
 
