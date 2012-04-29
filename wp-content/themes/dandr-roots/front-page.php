@@ -23,7 +23,6 @@
       <?php roots_main_after(); ?>
       <?php roots_sidebar_before(); ?>
       <?php roots_sidebar_after(); ?>
-      <div class="push"></div>
     </div><!-- /#content -->
   <?php roots_content_after(); ?>
 <?php get_footer(); ?>

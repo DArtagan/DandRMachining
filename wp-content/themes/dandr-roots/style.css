@@ -64,9 +64,13 @@ header .navbar-inner {
 
 body.home div#wrap {
   width: 960px;
-  margin: 0px auto;
+  min-height: 50%;
+  height: auto !important;
+  height: 100%;
+  margin: 0px 10% -125px;
+  /*margin: 0px auto;
   min-height: 0px;
-  height: 47% !important;
+  height: 47% !important;*/
 }
 
 #sidebar>.well {
@@ -121,11 +125,11 @@ footer#content-info {
   clear: both;
   width: 100%;
 }
-
+/*
 body.home div.push {
   display: none;
 }
-
+*/
 body.home footer#content-info {
   position: absolute;
   bottom: 0px;
