@@ -53,11 +53,11 @@ header .navbar-inner {
   padding: 10px 10px 11px;
 }
 
-div#wrap {
-  min-height: 46%; /* 60%;*/
+#wrap {
+  min-height: 100%; /*46%;*/ /* 60%;*/
   height: auto !important;
   height: 100%;
-  margin: 0px 10% 0px/*-16px*/;
+  margin: 0px 10% -75px/*0px */ /*-16px*/;
 }
 
 body.home div#wrap {
@@ -110,7 +110,7 @@ div.categories>div.other>ul>li {
 }
 
 footer#content-info, div.push {
-  height: 86px;
+  height: 76px;
   padding: 30px 0px 20px; 
 }
 
