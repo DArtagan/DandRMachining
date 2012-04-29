@@ -121,15 +121,15 @@ footer#content-info {
   clear: both;
   width: 100%;
 }
-/*
+
 body.home div.push {
   display: none;
 }
-*/
-/*body.home footer#content-info {
+
+body.home footer#content-info {
   position: absolute;
   bottom: 0px;
-}*/
+}
 
 footer>div {
   padding: 0px 30px;
