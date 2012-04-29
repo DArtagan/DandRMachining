@@ -29,6 +29,7 @@ div#topBanner {
   background-position: center center;
   color: white;
   height: 100%;
+  min-height: 200px;
   margin-left: 0px;
   overflow: auto;
   width: 100%;
