@@ -55,7 +55,7 @@ header .navbar-inner {
   padding: 10px 10px 11px;
 }
 
-#wrap {
+#superWrap {
   min-height: 60%; /*46%;*/ /* 60%;*/
   height: auto !important;
   height: 100%;
@@ -122,14 +122,14 @@ footer#content-info {
   width: 100%;
 }
 
-body.home div.push {
+/*body.home div.push {
   display: none;
-}
+}*/
 
-body.home footer#content-info {
+/*body.home footer#content-info {
   position: absolute;
   bottom: 0px;
-}
+}*/
 
 footer>div {
   padding: 0px 30px;

@@ -26,6 +26,7 @@
 <body <?php body_class(roots_body_class()); ?>>
 
   <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="superWrap">
   <?php roots_header_before(); ?>
   <header id="banner" class=" " role="banner">
     <?php roots_header_inside(); ?>
