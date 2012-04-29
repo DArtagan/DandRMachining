@@ -15,7 +15,7 @@ html, body {
 }
 
 header {
-  height: 30%;
+  height: 200px;
   margin-bottom: 50px;
 }
 
@@ -90,7 +90,6 @@ body.page #sidebar {
 
 div#content {
   height: 100%;
-  margin-top: 70px;
 }
 
 div.categories {
