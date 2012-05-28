@@ -129,7 +129,7 @@ div.push {
 }
 
 footer#content-info {
-  height: 50px;
+  height: 70px;
 }
 
 footer#content-info {
@@ -151,7 +151,7 @@ footer>div {
 footer div.vcard {
   float: right;
   position: relative;
-  top: -25px;
+  top: -15px;
 }
 
 footer div.vcard div {
