@@ -144,5 +144,20 @@ body.home div.push {
 }
 
 footer>div {
+  float: left;
   padding: 0px 30px;
+}
+
+footer div.vcard {
+  float: right;
+  position: relative;
+  top: -25px;
+}
+
+footer div.vcard div {
+  color: #999999;
+}
+
+footer div.vcard span.org {
+  display: none;
 }
