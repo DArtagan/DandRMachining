@@ -3,4 +3,3 @@
 `git commit -m "Update: Server side based changes"`;
 `git pull`;
 `git push`;
-?>
