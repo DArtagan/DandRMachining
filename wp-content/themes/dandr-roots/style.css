@@ -8,11 +8,11 @@ Template: roots
 
 html, body {
   height: 100%;
-  min-height: 900px;
+  min-height: 890px;
   margin: 0px;
   padding: 0px;
   width: 100%;
-  min-width: 960px;
+  min-width: 900px;
 }
 
 header {
@@ -79,9 +79,11 @@ body.home #superWrap {
 }
 
 body.home div#wrap {
-  width: 920px;
+  width: 100%;/*920px;*/
   margin: 0px auto;
   height: 50% !important;
+  max-width: 1150px;
+  padding: 0px;
 }
 
 #sidebar>.well {
@@ -99,8 +101,8 @@ div#content {
 div.categories {
   height: 100%;
   min-height: 250px;
-  margin: 0px 0px 0px 70px;
-  width: auto;
+  margin: 0px 0px 0px 11%;
+  width: 82%;
 }
 
 div.categories>a, div.categories>div {
@@ -113,7 +115,7 @@ div.categories>a, div.categories>div {
 }
 
 div.categories h2 {
-  font-size: 2em !important;
+  font-size: 1.8em !important;
   line-height: 2em !important;
   padding-left: 10px;
 }
