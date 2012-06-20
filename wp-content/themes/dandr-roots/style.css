@@ -8,7 +8,7 @@ Template: roots
 
 html, body {
   height: 100%;
-  min-height: 700px;
+  min-height: 900px;
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -23,6 +23,7 @@ header {
 body.home header {
   height: 50%;
   margin-bottom: 0px;
+  min-height: 375px;
 }
 
 div#topBanner {
@@ -39,6 +40,7 @@ div#topBanner {
 
 body.home div#topBanner {
   background-image: url('img/banners/banner.jpg');
+  min-height: 375px;
 }
 
 img.logo {
@@ -73,6 +75,7 @@ header .navbar-inner {
 
 body.home #superWrap {
   height: 100% !important;
+  min-height: 890px;
 }
 
 body.home div#wrap {
@@ -95,8 +98,8 @@ div#content {
 
 div.categories {
   height: 100%;
-  min-height: 275px;
-  margin: 0px 0px 0px 30px;
+  min-height: 250px;
+  margin: 0px 0px 0px 70px;
   width: auto;
 }
 
@@ -105,7 +108,8 @@ div.categories>a, div.categories>div {
   height: 60%;
   margin-left: 0px;
   float: left;
-  width: 19.5%;
+  width: 18.5%;
+  min-height: 175px;
 }
 
 div.categories h2 {
