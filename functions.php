@@ -39,6 +39,7 @@ function dandr_post_parent_setup() {
     )
   );
 
+remove_theme_support('bootstrap-top-navbar');
   
 /*
  * Unregister sidebar for pages
