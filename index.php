@@ -1,18 +1,28 @@
-<?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
-
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define('WP_USE_THEMES', true);
-
-/** Loads the WordPress Environment and Template */
-require('./wp-blog-header.php');
-?>
+<?php get_header(); ?>
+  <?php roots_content_before(); ?>
+  <div id="topBanner" class="span12">
+      <div style="display: table-cell; vertical-align: middle;">
+        <div>
+          <a href="index.php"><img class="logo" src="wp-content/themes/dandr-roots/img/logo.png" /></a>
+        </div>
+      </div>
+    </div>
+    <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
+      <?php roots_main_before(); ?>
+        <div id="main" class="<?php echo MAIN_CLASSES; ?>" role="main">
+          <div class="page-header">
+            <h1><?php _e('Latest Posts', 'roots');?></h1>
+          </div>
+          <?php get_template_part('loop', 'index'); ?>
+        </div><!-- /#main -->
+      <?php roots_main_after(); ?>
+      <?php roots_sidebar_before(); ?>
+        <aside id="sidebar" class="<?php echo SIDEBAR_CLASSES; ?>" role="complementary">
+          <?php roots_sidebar_inside_before(); ?>
+            <?php get_sidebar(); ?>
+          <?php roots_sidebar_inside_after(); ?>
+        </aside><!-- /#sidebar -->
+      <?php roots_sidebar_after(); ?>
+    </div><!-- /#content -->
+  <?php roots_content_after(); ?>
+<?php get_footer(); ?>
